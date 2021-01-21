@@ -1,0 +1,5 @@
+17:14:57.128 [main] TRACE testcases.cart_test - Arrived at cart
+17:14:57.222 [main] INFO  testcases.cart_test - Confirmed correct number of products added
+17:14:57.286 [main] INFO  testcases.cart_test - Confirmed prices are correct
+17:14:57.322 [main] ERROR testcases.cart_test - Error in cart total
+17:14:58.208 [main] TRACE testcases.cart_test - Test complete, shutting down

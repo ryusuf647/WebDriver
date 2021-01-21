@@ -1,0 +1,12 @@
+19:31:33.159 [main] TRACE testcases.homepagetest - Arrived at home page
+19:31:33.250 [main] INFO  testcases.homepagetest - Login link is displayed
+19:31:33.283 [main] INFO  testcases.homepagetest - Trying to click login link
+19:31:33.984 [main] TRACE testcases.loginpagetest - Arrived on login page
+19:31:36.215 [main] INFO  testcases.loginpagetest - Error is displayed for incorrect credentials for user: rpaul@test.com
+19:31:43.616 [main] INFO  testcases.loginpagetest - Checking if login successful for user: ryusuf647@hotmail.com
+19:31:43.684 [main] TRACE testcases.clientareatest - Successfully logged in
+19:31:43.944 [main] ERROR testcases.clientareatest - Incorrect number of nodes displayed
+19:31:44.563 [main] INFO  testcases.clientareatest - Trying to click services menu item
+19:31:44.584 [main] INFO  testcases.clientareatest - Click successful
+19:31:44.601 [main] INFO  testcases.clientareatest - Trying to click menu item
+19:31:45.869 [main] TRACE testcases.servicestest - Arrived at all products

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+	<listener class-name = "resources.Listeners"/>	
+  </listeners>
+  <test name="E2EFrameworkTest">
+  	<classes>
+  		<class name="testcases.homepagetest"/>
+  		<class name="testcases.loginpagetest"/>
+  		<class name="testcases.clientareatest"/>
+  		<class name="testcases.servicestest"/>
+  		<class name="testcases.cart_test"/>
+  	</classes>
+  </test>
+</suite>

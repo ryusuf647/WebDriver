@@ -1,0 +1,11 @@
+17:14:35.638 [main] INFO  testcases.loginpagetest - Error is displayed for incorrect credentials for user: rpaul@test.com
+17:14:42.846 [main] INFO  testcases.loginpagetest - Checking if login successful for user: rotebid474@loopsnow.com
+17:14:42.920 [main] TRACE testcases.clientareatest - Successfully logged in
+17:14:43.192 [main] ERROR testcases.clientareatest - Incorrect number of nodes displayed
+17:14:43.826 [main] INFO  testcases.clientareatest - Trying to click services menu item
+17:14:43.847 [main] INFO  testcases.clientareatest - Click successful
+17:14:43.862 [main] INFO  testcases.clientareatest - Trying to click menu item
+17:14:45.353 [main] TRACE testcases.servicestest - Arrived at all products
+17:14:45.372 [main] INFO  testcases.servicestest - Attempting to add products to cart
+17:14:45.498 [main] INFO  testcases.servicestest - Added: 1M CreedTV - 2C - Full package - (Recurring Invoices)
+17:14:50.843 [main] INFO  testcases.servicestest - Added: Falcon Package (Recurring) Clean Version - Streamline (The New Beast)

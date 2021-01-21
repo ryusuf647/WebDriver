@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-21T17:14:29 EST" name="Suite" finished-at="2021-01-21T17:14:57 EST" duration-ms="28702">
+    <groups>
+    </groups>
+    <test started-at="2021-01-21T17:14:29 EST" name="E2EFrameworkTest" finished-at="2021-01-21T17:14:57 EST" duration-ms="28702">
+      <class name="testcases.cart_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:testcases.cart_test@13cda7c9]" started-at="2021-01-21T17:14:57 EST" name="init" finished-at="2021-01-21T17:14:57 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="allservices()[pri:1, instance:testcases.cart_test@13cda7c9]" started-at="2021-01-21T17:14:57 EST" name="allservices" finished-at="2021-01-21T17:14:57 EST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allservices -->
+        <test-method signature="productnames()[pri:2, instance:testcases.cart_test@13cda7c9]" started-at="2021-01-21T17:14:57 EST" name="productnames" finished-at="2021-01-21T17:14:57 EST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productnames -->
+        <test-method signature="productprices()[pri:3, instance:testcases.cart_test@13cda7c9]" started-at="2021-01-21T17:14:57 EST" name="productprices" finished-at="2021-01-21T17:14:57 EST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productprices -->
+        <test-method signature="ordertotal()[pri:4, instance:testcases.cart_test@13cda7c9]" started-at="2021-01-21T17:14:57 EST" name="ordertotal" finished-at="2021-01-21T17:14:57 EST" duration-ms="52" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [$22.80 USD] but found [$25.95 USD]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [$22.80 USD] but found [$25.95 USD]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testcases.cart_test.ordertotal(cart_test.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordertotal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.cart_test@13cda7c9]" started-at="2021-01-21T17:14:58 EST" name="tearDown" finished-at="2021-01-21T17:14:58 EST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.cart_test -->
+      <class name="testcases.loginpagetest">
+        <test-method is-config="true" signature="init()[pri:0, instance:testcases.loginpagetest@325f7fa9]" started-at="2021-01-21T17:14:33 EST" name="init" finished-at="2021-01-21T17:14:33 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginpage()[pri:1, instance:testcases.loginpagetest@325f7fa9]" started-at="2021-01-21T17:14:33 EST" name="loginpage" finished-at="2021-01-21T17:14:33 EST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="logintest(java.lang.String, java.lang.String)[pri:2, instance:testcases.loginpagetest@325f7fa9]" started-at="2021-01-21T17:14:33 EST" name="logintest" data-provider="MySQL-provider" finished-at="2021-01-21T17:14:35 EST" duration-ms="1773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rpaul@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.lang.String, java.lang.String)[pri:2, instance:testcases.loginpagetest@325f7fa9]" started-at="2021-01-21T17:14:35 EST" name="logintest" data-provider="MySQL-provider" finished-at="2021-01-21T17:14:42 EST" duration-ms="7176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rotebid474@loopsnow.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C|8-4Al,HMLE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- testcases.loginpagetest -->
+      <class name="testcases.clientareatest">
+        <test-method is-config="true" signature="init()[pri:0, instance:testcases.clientareatest@11ce2e22]" started-at="2021-01-21T17:14:42 EST" name="init" finished-at="2021-01-21T17:14:42 EST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="clientarea()[pri:1, instance:testcases.clientareatest@11ce2e22]" started-at="2021-01-21T17:14:42 EST" name="clientarea" finished-at="2021-01-21T17:14:42 EST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clientarea -->
+        <test-method signature="titlestest()[pri:2, instance:testcases.clientareatest@11ce2e22]" started-at="2021-01-21T17:14:42 EST" name="titlestest" finished-at="2021-01-21T17:14:43 EST" duration-ms="254" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3] but found [4]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3] but found [4]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at testcases.clientareatest.titlestest(clientareatest.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlestest -->
+        <test-method signature="servicesnavtest()[pri:3, instance:testcases.clientareatest@11ce2e22]" started-at="2021-01-21T17:14:43 EST" name="servicesnavtest" finished-at="2021-01-21T17:14:45 EST" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicesnavtest -->
+      </class> <!-- testcases.clientareatest -->
+      <class name="testcases.servicestest">
+        <test-method is-config="true" signature="init()[pri:0, instance:testcases.servicestest@63a5d002]" started-at="2021-01-21T17:14:45 EST" name="init" finished-at="2021-01-21T17:14:45 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="allservices()[pri:1, instance:testcases.servicestest@63a5d002]" started-at="2021-01-21T17:14:45 EST" name="allservices" finished-at="2021-01-21T17:14:45 EST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allservices -->
+        <test-method signature="addproducts()[pri:2, instance:testcases.servicestest@63a5d002]" started-at="2021-01-21T17:14:45 EST" name="addproducts" finished-at="2021-01-21T17:14:57 EST" duration-ms="11722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproducts -->
+      </class> <!-- testcases.servicestest -->
+      <class name="testcases.homepagetest">
+        <test-method is-config="true" signature="initMethod()[pri:0, instance:testcases.homepagetest@408613cc]" started-at="2021-01-21T17:14:25 EST" name="initMethod" finished-at="2021-01-21T17:14:29 EST" duration-ms="3607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMethod -->
+        <test-method signature="homepage()[pri:1, instance:testcases.homepagetest@408613cc]" started-at="2021-01-21T17:14:29 EST" name="homepage" finished-at="2021-01-21T17:14:32 EST" duration-ms="3580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="login()[pri:2, instance:testcases.homepagetest@408613cc]" started-at="2021-01-21T17:14:32 EST" name="login" finished-at="2021-01-21T17:14:32 EST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login_nav()[pri:3, instance:testcases.homepagetest@408613cc]" started-at="2021-01-21T17:14:32 EST" name="login_nav" finished-at="2021-01-21T17:14:33 EST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_nav -->
+      </class> <!-- testcases.homepagetest -->
+    </test> <!-- E2EFrameworkTest -->
+  </suite> <!-- Suite -->
+</testng-results>
